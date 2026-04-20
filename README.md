@@ -15,6 +15,10 @@ The goal is to understand how demand responds to key drivers such as temperature
 - XGBoost achieved higher accuracy compared to Linear Regression
 - Captured short-term demand fluctuations effectively
 
+## 📊 Forecast Visualization
+
+![Forecast](forecast_plot.png)
+
 ## Tools & Technologies
 - Python
 - Pandas
