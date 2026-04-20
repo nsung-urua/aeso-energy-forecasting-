@@ -8,8 +8,8 @@ This project builds a machine learning model to forecast electricity demand in A
 The goal is to understand how demand responds to key drivers such as temperature and recent load trends.
 
 ## Models Used
-- Linear Regression
-- XGBoost
+- Linear Regression(baseline model)
+- XGBoost(machine learning model)
 
 ## Results
 - XGBoost achieved higher accuracy compared to Linear Regression
@@ -35,6 +35,7 @@ streamlit run app.py
 
 ## Project Structure
 - app.py → Streamlit dashboard
+- notebook.ipynb → Data exploration & model development 
 - metrics.csv → Model performance
 - forecast_plot.png → Visualization of predictions
 
