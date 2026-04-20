@@ -13,6 +13,7 @@ The goal is to understand how demand responds to key drivers such as temperature
 
 ## Results
 - XGBoost achieved higher accuracy compared to Linear Regression
+- XGBoost reduced prediction error by approximately 30% compared to linear regression
 - Captured short-term demand fluctuations effectively
 
 ## 📊 Forecast Visualization
