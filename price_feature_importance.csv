@@ -1,0 +1,44 @@
+feature,importance,display_feature
+price_lag_1,0.21077052,Price — Previous Hour
+hour_cos,0.05385967,Time of Day Pattern (cos)
+price_change_1h,0.049702466,Recent Price Change
+price_lag_2,0.03626051,Price — Two Hours Ago
+price_roll_max_6,0.03147807,Highest Price — Previous 6 Hours
+dayofweek,0.02609413,Day of Week
+hour_sin,0.025031278,Time of Day Pattern (sin)
+month_cos,0.023508899,Seasonal Pattern (cos)
+load_roll_mean_24,0.021735864,Average Load — Previous 24 Hours
+price_roll_max_24,0.021470314,Highest Price — Previous 24 Hours
+price_roll_std_6,0.02016665,Price Variability — Previous 6 Hours
+price_roll_max_168,0.020157494,Highest Price — Previous Week
+load_roll_std_24,0.020076584,Load Variability — Previous 24 Hours
+price_roll_mean_720,0.019757401,Average Price — Previous 30 Days
+hour,0.019749124,Hour of Day
+dow_cos,0.019470368,Weekly Pattern (cos)
+day,0.018645184,Day of Month
+price_lag_3,0.018543413,Price — Three Hours Ago
+load_roll_std_168,0.01740856,Load Variability — Previous Week
+price_roll_max_720,0.016843878,Highest Price — Previous 30 Days
+load_change_1h,0.016785504,Recent Load Change
+price_roll_mean_168,0.01652945,Average Price — Previous Week
+month,0.016276235,Month
+load_roll_mean_168,0.016182406,Average Load — Previous Week
+price_roll_std_168,0.015941486,Price Variability — Previous Week
+price_roll_mean_6,0.015850892,Average Price — Previous 6 Hours
+is_weekend,0.015232384,Weekend Indicator
+load_lag_1,0.01485359,Load — Previous Hour
+load_lag_168,0.014796114,Load — Same Hour Last Week
+price_lag_168,0.01477504,Price — Same Hour Last Week
+load_roll_std_6,0.01446637,Load Variability — Previous 6 Hours
+load_lag_24,0.014461397,Load — Same Hour Yesterday
+load_lag_48,0.014175717,Load — Same Hour Two Days Ago
+price_roll_std_720,0.014083125,Price Variability — Previous 30 Days
+dow_sin,0.013807575,Weekly Pattern (sin)
+price_roll_mean_24,0.013002366,Average Price — Previous 24 Hours
+price_lag_24,0.012639977,Price — Same Hour Yesterday
+price_roll_std_24,0.012367672,Price Variability — Previous 24 Hours
+load_lag_2,0.011856089,Load — Two Hours Ago
+load_roll_mean_6,0.011624078,Average Load — Previous 6 Hours
+price_lag_48,0.010915317,Price — Same Hour Two Days Ago
+month_sin,0.008646843,Seasonal Pattern (sin)
+is_dst_repeat,0.0,is_dst_repeat

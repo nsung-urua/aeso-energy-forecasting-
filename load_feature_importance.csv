@@ -1,0 +1,25 @@
+feature,importance,display_feature
+load_lag_1,0.85255,Load — Previous Hour
+load_lag_24,0.069848426,Load — Same Hour Yesterday
+hour_cos,0.025822332,Time of Day Pattern (cos)
+load_change_1h,0.015121553,Recent Load Change
+load_lag_168,0.0058046477,Load — Same Hour Last Week
+load_lag_2,0.0055586444,Load — Two Hours Ago
+hour,0.0048446157,Hour of Day
+hour_sin,0.004110352,Time of Day Pattern (sin)
+load_roll_mean_24,0.0038755122,Average Load — Previous 24 Hours
+is_weekend,0.0026769033,Weekend Indicator
+month_cos,0.0022383425,Seasonal Pattern (cos)
+dayofweek,0.0013210893,Day of Week
+dow_sin,0.0010417225,Weekly Pattern (sin)
+load_roll_mean_6,0.00076946977,Average Load — Previous 6 Hours
+month_sin,0.00066202745,Seasonal Pattern (sin)
+dow_cos,0.00062416744,Weekly Pattern (cos)
+month,0.00059055316,Month
+load_roll_std_6,0.0005760193,Load Variability — Previous 6 Hours
+load_roll_std_168,0.0005449256,Load Variability — Previous Week
+load_roll_mean_168,0.000492749,Average Load — Previous Week
+load_lag_48,0.0003195418,Load — Same Hour Two Days Ago
+load_roll_std_24,0.00031061907,Load Variability — Previous 24 Hours
+day,0.0002145772,Day of Month
+is_dst_repeat,8.123092e-05,is_dst_repeat
