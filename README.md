@@ -1,50 +1,20 @@
-# AESO Load Forecasting Project
+# AESO Load and Price Forecasting Project
 >This project includes both an exploratory notebook and a production-style Streamlit dashboard for visualization.
 > 
 ## Overview
-This project builds a machine learning model to forecast electricity demand in Alberta using AESO data.
+A machine-learning project exploring short-term electricity demand and pool-price forecasting in Alberta using AESO market data.
 
-## Objective
-The goal is to understand how demand responds to key drivers such as temperature and recent load trends.
+The project compares Linear Regression, XGBoost and simple forecasting baselines using leakage-safe time-series features. It also explores whether high-price periods can be identified when predicting the exact magnitude of price spikes becomes difficult.
 
-## Models Used
-- Linear Regression(baseline model)
-- XGBoost(machine learning model)
+Key findings
 
-## Results
-- XGBoost achieved higher accuracy compared to Linear Regression
-- XGBoost reduced prediction error by approximately 30% compared to linear regression
-- Captured short-term demand fluctuations effectively
+* Alberta electricity load was highly predictable, with the final XGBoost model achieving an R² of approximately 0.98.
+* Pool prices were considerably more difficult to forecast, particularly during extreme price events.
+* Historical load and price behaviour were important predictors, but model performance highlighted the limitations of forecasting without information such as outages and changing supply conditions.
+* Reframing the price problem as high-price risk classification provided another way to extract useful information from the data.
 
-## 📊 Forecast Visualization
+Tools: Python · Pandas · Scikit-learn · XGBoost · Plotly · Streamlit
 
-![Forecast](forecast_plot.png)
 
-## Tools & Technologies
-- Python
-- Pandas
-- Scikit-learn
-- XGBoost
-- Streamlit
 
-## How to Run
 
-### 1. Install dependencies
-pip install -r requirements.txt
-
-### 2. Run notebook
-jupyter notebook
-
-### 3. Run Streamlit dashboard
-streamlit run app.py
-
-## Project Structure
-- app.py → Streamlit dashboard
-- notebook.ipynb → Data exploration & model development 
-- metrics.csv → Model performance
-- forecast_plot.png → Visualization of predictions
-
-## Future Improvements
-- Add weather forecast inputs
-- Improve seasonality modeling
-- Deploy live dashboard
