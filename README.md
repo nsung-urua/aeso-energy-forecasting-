@@ -12,12 +12,12 @@ The project compares Linear Regression, XGBoost and simple forecasting baselines
 * Electricity prices were much harder to predict: XGBoost improved overall price-fit metrics versus simple baselines, but extreme price spikes remained difficult to forecast accurately.
 * Recent history was highly important: previous-hour load and price were among the strongest predictors.
 * High-price risk classification was promising: Because predicting the exact size of electricity price spikes was difficult, the analysis also tested whether machine learning could instead identify periods at higher risk of prices reaching $100/MWh or more.
-  ** The classifier achieved a ROC-AUC of ~0.96. ROC-AUC measures how well a model distinguishes between two groups—in this case, high-price and normal-price hours across different decision thresholds. A score of 0.5 represents essentially random ranking, while 1.0 represents perfect separation, so 0.96 indicates strong ability to rank high-price conditions above normal-price conditions. This does not mean the model was 96% accurate; it should be interpreted as a risk-identification tool rather than an exact price predictor.
+* The classifier achieved a ROC-AUC of ~0.96. ROC-AUC measures how well a model distinguishes between two groups—in this case, high-price and normal-price hours across different decision thresholds. A score of 0.5 represents essentially random ranking, while 1.0 represents perfect separation, so 0.96 indicates strong ability to rank high-price conditions above normal-price conditions. This does not mean the model was 96% accurate; it should be interpreted as a risk-identification tool rather than an exact price predictor.
 
-* Main takeaway: machine learning can identify useful patterns, but model performance depends heavily on the quality of the inputs. Domain knowledge and human judgement remain important for interpreting results and understanding real-world market conditions.
+**Main takeaway:** machine learning can identify useful patterns, but model performance depends heavily on the quality of the inputs. Domain knowledge and human judgement remain important for interpreting results and understanding real-world market conditions.
 
 
-Tools: Python · Pandas · Scikit-learn · XGBoost · Plotly · Streamlit
+**Tools:** Python · Pandas · Scikit-learn · XGBoost · Plotly · Streamlit
 
 
 
